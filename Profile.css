@@ -15,7 +15,7 @@ body{
 
    
 }
-@media screen and (max-width:576px) {
+@media screen and (max-width:393px) {
     body{
         background-image: url("https://images.pexels.com/photos/2182863/pexels-photo-2182863.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
         background-repeat: no-repeat;
@@ -132,7 +132,7 @@ h3{
 }
 .icons {
  
-    margin-top: -35vh;
+    margin-top: 20vh;
     margin-left: 10px;
     font-size: 35px;
     display: -ms-inline-grid;
@@ -144,21 +144,21 @@ h3{
         opacity:1 ;
     }
 }
-@media screen and (max-width:576px){
+@media screen and (max-width:393px){
     
     
     #home h3{
         font-size: 40px;
         margin-top: 25%;
-        left: 23%;
+        left: 10%;
     }
     .icons{
         /* margin-top: -135px; */
-      margin-bottom: -450px;
-        margin-left: 80%;
+      margin-bottom: -550px;
+        margin-left: 70%;
        display: grid;
-        font-size: xx-large;
-        margin-top: -140%;
+        font-size: large;
+        margin-top: -10%;
         
     }
     #home h3  {
@@ -173,6 +173,7 @@ h3{
         animation-iteration-count: 1;
         animation-fill-mode: forwards;
         font-size: 24px;
+        margin-left: -10px;
         }
         @keyframes example {
         from {top: 0px;}
@@ -180,155 +181,129 @@ h3{
         }
         }
    
-    
-}
+    }
+
 #about{
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: cornflowerblue;
 }
-.circle{
-    width: 500px;
-    height: 500px;
-    /* background-color: rgb(238, 228, 173); */
-    background-image: url("https://images.pexels.com/photos/2182863/pexels-photo-2182863.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-    background-repeat: no-repeat;
-    border-radius: 50%;
-    position: relative;
-    box-shadow: 0px 5px 12px rgba(0,0,0,.7);
-    margin-bottom: 160px;
-    margin-top: -5%;
-    margin-left: 50%;
-    transition: 1s;
-   
-}
-.circle img{
-    position: absolute;
-    height: 200px;
-    top: -20%;
-    margin-left: 18%;
-    margin-top: 15%;
-    filter: drop-shadow(0px 30px 15px rgba(0,0,0,.4));
-    transition: 1s;
-}
-.circle:hover{
-    width: 800px;
-    height: 550px;
-    border-radius: 10px;
-    transition: 1s;
-    margin-left: 35%;
-}
-li {
-    list-style-position: inside;
-  
-    text-align: justify;
-  }
-.circle:hover img{
-    position: absolute;
-    margin-top: 20%;
-    margin-left: 5%;
-    margin-right: 70%;
-    transition: 1s;
-  
-}
-.circle:hover .content{
-    position: absolute;
-    top: 5%;
-    margin-top: -20px;
-    right: 3%;
-    color: rgb(198, 27, 27);
-    width: 50%;
-    opacity: 1;
-    transition: 1s;
-    padding: 10px;
-    overflow-wrap: break-word;
-    padding: auto;
-    font-size: 25px;
-    background-color: #282d32;
-    background-size: 100%;
-    text-shadow: 1px 1px 3px  rgb(0, 0, 0);
-  
-}
-.circle:hover .content h1{
-    top: 2%;
-    color: #f0f9ff;
-    text-shadow: 2px 3px 4px rgb(20, 19, 19);
-}
-.circle .content{
-    opacity: 0;
-}
-@media screen and (max-width:576px){
-    .circle{
-        width: 400px;
-        height: 400px;
-        /* background-color: rgb(237, 117, 94); */
-        /* color: #000 !important; */
-        background-image: url("https://images.pexels.com/photos/2182863/pexels-photo-2182863.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
-        background-repeat: no-repeat;
-        border-radius: 50%;
-        position: relative;
-        box-shadow: 0px 5px 12px rgba(0,0,0,.7);
-        /* margin-bottom: 3%; */
-        margin-top: 60%;
-        margin-left: 5%;
-        transition: 1s;
-       
-    }
-    .circle:hover .content h1{
-        top: 2%;
-        margin-top: -160px;
-        color: white;
-        text-shadow: 2px 3px 2px black;
-        /* margin-bottom: 40%; */
-    }
-    .circle:hover img{
-        position: absolute;
-        margin-top: 15%;
-        margin-left: 5%;
-        margin-right: 70%;
-        transition: 1s;
-      
-    }
-    .circle:hover{
-        width: 420px;
-        height: 620px;
-        margin-top:180px;
-        margin-left:-15px;
-        /* bottom: 60%; */
-        border-radius: 10px;
-        transition: 1s;
-    }
-   
-    .circle:hover .content{
-        position: absolute;
-        top: 45%;
-        right: 0%;
-        left: 3%;
-        color: rgb(218, 17, 17);
-        width: 80%;
-        opacity: 1;
-        transition: 1s;
-        /* top: 60%; */
-        text-align: justify;
-        overflow-wrap: break-word;
-        padding: 15px;
-        height: 80%;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-weight: bold;
-        /* letter-spacing: 0.5px; */
-        font-size: 22px;
-        margin-top: 10px;
-        background-color:transparent;
-        background-size: 100%;
-        text-shadow: 2px 3px 12px rgb(16, 16, 15);
-    }
-    .circle .content{
-        opacity: 0;
-    }
-   
+
+/* #about img{
+    width: 125px;
+    height: 125px;
+    margin-top: -460px;
+    margin-left: 190px
     
 }
+#about img{
+    width: 260px;
+    height: 260px;
+    margin-top: -100px;
+    margin-left: 110%;
+    margin-bottom: -390px;
+}
+#about h4{
+    margin-top: 20%;
+    margin-left: -270px;
+    text-shadow: 2px 2px 3px red;
+    font-size: 40px !important;
+}
+#about .card{
+    margin-top: -40%;
+    height: auto;
+    height: 30px;
+}
+#about .card-header{
+    width: 800px;
+}
+#about h1{
+    
+}
+ #about .card-body{
+background-color: cornflowerblue;
+
+    font-size: 24px;
+    color: #0f0f0f;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px #d9d7d7;
+    text-align: justify;
+    width: 800px;
+    
+ }
+
+ #about .card-header{
+    background-color: transparent !important;
+ }
+ .card-body:hover{
+    box-shadow: 8px 8px 15px rgba(251, 243, 4, 0.4);
+}
+.card:hover{
+    box-shadow: 8px 8px 15px rgba(0,0,0,.4);
+    transition: .2s;
+    
+} */ 
+/* #about p{
+    margin-left: -250px;
+    margin-top: 230px;
+    background-color: #d8d1d1;
+    padding: 60px;
+    font-size: 25px;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 800px;
+    height: 500px;
+    /* justify-content: ; */
+    /* text-size-adjust: auto; */
+    /* box-shadow: 2px 3px 14px black;
+} */ 
+
+@media screen and (max-width:393px){
+    
+    #about img{
+        width: 160px;
+        height: 160px;
+        margin-top: -100px;
+        /* margin-left:-290px; */
+        margin-left: -190px;
+    }
+   
+    #about h4{
+        margin-top: 20%;
+        margin-left: 40%;
+        text-shadow: 2px 2px 3px red;
+        
+    }
+    #about .card{
+        margin-top: -40%;
+    }
+     #about .card-body{
+    background-color: cornflowerblue;
+    
+        font-size: 24px;
+        color: #0f0f0f;
+        font-size: 25px;
+        text-shadow: 1px 1px 1px #d9d7d7;
+        text-align: justify;
+    
+        
+     }
+     #about .card-header{
+        background-color: rgb(41, 40, 40) !important;
+     }
+     .card-body:hover{
+        box-shadow: 8px 8px 15px rgba(251, 243, 4, 0.4);
+    }
+    .card:hover{
+        box-shadow: 8px 8px 15px rgba(0,0,0,.4);
+        transition: .2s;
+        
+    }
+}
+    
+    
+
 #skills{
     padding-top: 5%;
     background: #d8d1d1;
@@ -421,7 +396,7 @@ label{
 }
 
 
-@media screen and (max-width:576px){
+@media screen and (max-width:393px){
     #experience .container text-center{
         margin-top: 30%;
     } 
@@ -430,15 +405,21 @@ label{
     }
     .card-body{
         margin-top: 0px;
+        display: inline-block;
     }
     #experience h1{
-        margin-top: 100px;
-        font-size: 50px;
+        margin-top: 60px;
+        font-size: 35px;
         transform: translateY(50px);
         animation: heading;
+        font-weight: bolder;
+        text-shadow: 1px 1px 1px white;
     }
     #experience .display-4{
-        margin-top: 10px;
+        margin-top: 70px;
+    }
+    .card{
+        margin-top: 60px;
     }
     
 }
@@ -451,13 +432,23 @@ label{
     box-shadow: 15px 20px 10px rgba(0,0,0,.4);
 }
 
-@media screen and (max-width:576px){
+@media screen and (max-width:393px){
     .display-4{
         margin-top: 40%;
     }
    #skills .text-center{
     margin-top: 15%;
    }
+   #skills h1{
+    font-size: 32px;
+   }
+    #skills label{
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman';
+    font-style: oblique;
+    text-shadow: 5px 3px 6px transparent ;
+    font-weight: bolder;
+  }
    #contact form{
     margin-top: 26%;
     
@@ -470,9 +461,17 @@ label{
    }
  
    #contact iframe{
-    width: 400px;
+    width: 300px;
     height: 110px;
     margin-top: 16%;;
+   }
+   #contact label{
+    font-size: 25px;
+   }
+   #contact button{
+    margin-top: 20px;
+    margin-left: 90px;
+    font-size: larger;
    }
    
 
