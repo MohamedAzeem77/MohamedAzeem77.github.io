@@ -1,0 +1,24 @@
+.box{
+    width:150px;
+    height: 150px;
+    border: 3px solid rgb(249, 5, 5);
+    display: inline-block;
+    margin:-2px;
+    font-size: 100px;
+    text-align: center;
+   
+    background-color: aliceblue;
+   
+}
+.black{
+    background-color: rgb(253, 5, 5);
+}
+body{
+background-image: url("https://images.pexels.com/photos/833393/pexels-photo-833393.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+text-align:center;
+background-repeat: no-repeat;
+background-size:cover;
+box-shadow: chartreuse;
+
+
+}
